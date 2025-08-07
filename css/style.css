@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #711324;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;       /* dikeyde ortalar */
+    justify-content: space-between;   /* yatayda ortalar tüm navbar içeriğini */
+    padding: 10px 200px;
+    background-color: black;
+    color: white;
+    gap: 40px;                 /* logo ile nav arası boşluk */
+}
+
+.logo img {
+    height: 50px;
+    padding-top: 5%; /* isteğe göre değiştirilebilir */
+}
+
+nav {
+    display: flex;
+    gap: 20px; /* nav öğeleri arası boşluk */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FCC252;
+}
+
+.hero {
+    background-image: url('assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #FCC252;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.featured-films {
+    padding: 60px 20px;
+    text-align: center;
+    color: #FCC252;
+}
+
+.featured-films h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.film-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.film-card {
+    width: 200px;
+    height: 450px;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.film-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.film-card:hover {
+    transform: scale(1.05);
+}

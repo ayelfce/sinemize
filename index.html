@@ -7,18 +7,20 @@
     <title>Sinemize - Home Page</title>
 </head>
 <body>
+    <!-- Navbar -->
     <div class="navbar">
         <div class="logo">
-            <img src="assets/logo.png">
+            <img src="assets/logo.png" alt="Sinemize Logo">
         </div>
         <nav>
-        <a href="#sign-in">Sign In</a>
-        <a href="#sign-up">Sign Up</a>
-        <a href="#films">Films</a>
-        <a href="#contact">Contact</a>
+            <a href="html/sign-in.html">Sign In</a>
+            <a href="html/sign-up.html">Sign Up</a>
+            <a href="#films">Films</a>
+            <a href="html/contact.html">Contact</a>
         </nav>
     </div>
 
+    <!-- Hero -->
     <section class="hero">
         <div class="hero-content">
             <h1>Welcome to Sinemize</h1>
@@ -27,26 +29,49 @@
         </div>
     </section>
 
-    <section class="featured-films">
+    <!-- Featured Films -->
+    <section class="featured-films" id="films">
         <h2>Featured Films</h2>
         <div class="film-grid">
             <div class="film-card">
-                <img src="assets/coraline.jpg">
+                <img src="assets/coraline.jpg" alt="Coraline">
                 <h3>Coraline</h3>
                 <p>Short description here.</p>
             </div>
             <div class="film-card">
-                <img src="assets/mary-n-max.jpg">
+                <img src="assets/mary-n-max.jpg" alt="Mary and Max">
                 <h3>Mary and Max</h3>
                 <p>Short description here.</p>
             </div>
             <div class="film-card">
-                <img src="assets/kubo.jpg">
+                <img src="assets/kubo.jpg" alt="Kubo">
                 <h3>Kubo</h3>
                 <p>Short description here.</p>
             </div>
         </div>
     </section>
-    
+
+    <!-- Categories -->
+    <section class="categories">
+        <h2>Browse by Category</h2>
+        <div class="category-grid">
+            <a href="#" class="category-card">Drama</a>
+            <a href="#" class="category-card">Animation</a>
+            <a href="#" class="category-card">Horror</a>
+            <a href="#" class="category-card">Sci-Fi</a>
+            <a href="#" class="category-card">Comedy</a>
+            <a href="#" class="category-card">Documentary</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Sinemize — All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
 </body>
 </html>
